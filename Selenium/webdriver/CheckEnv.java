@@ -16,9 +16,6 @@ public class CheckEnv {
 
     @BeforeClass
     public void beforeClass(){
-//    //    System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Desktop\\Learn - Selenium\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-//        driver = new ChromeDriver();
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
     @Test
@@ -36,11 +33,11 @@ public class CheckEnv {
     }
 
     @Test
-    public void TC_03_Run_On_Edge() {
-        driver = new EdgeDriver();
-        driver.get("https://www.facebook.com/");
-        driver.quit();
-    }
+//    public void TC_03_Run_On_Edge() {
+//        driver = new EdgeDriver();
+//        driver.get("https://www.facebook.com/");
+//        driver.quit();
+//    }
 
     @AfterClass
     public void afterClass(){
