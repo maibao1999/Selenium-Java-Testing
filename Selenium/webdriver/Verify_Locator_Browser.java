@@ -36,7 +36,7 @@ public class Verify_Locator_Browser {
                 System.out.println("ok");
             }
         };
-        driver.quit();
+       // driver.quit();
     }
 
     @Test
@@ -55,7 +55,7 @@ public class Verify_Locator_Browser {
                 System.out.println("ok");
             }
         };
-        driver.quit();
+        //driver.quit();
     }
 
     @Test
@@ -77,7 +77,7 @@ public class Verify_Locator_Browser {
             }
 
         };
-        driver.quit();
+        //driver.quit();
     }
 
     @Test
@@ -97,7 +97,7 @@ public class Verify_Locator_Browser {
                 System.out.println("OK");
             }
         };
-        driver.quit();
+       // driver.quit();
     }
 
     @AfterClass
