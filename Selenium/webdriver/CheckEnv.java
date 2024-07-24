@@ -1,5 +1,6 @@
 package webdriver;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -33,11 +34,11 @@ public class CheckEnv {
     }
 
     @Test
-//    public void TC_03_Run_On_Edge() {
-//        driver = new EdgeDriver();
-//        driver.get("https://www.facebook.com/");
-//        driver.quit();
-//    }
+    public void TC_03_Run_On_Edge() {
+        driver = new EdgeDriver();
+        driver.get("https://www.facebook.com/");
+        driver.quit();
+    }
 
     @AfterClass
     public void afterClass(){
