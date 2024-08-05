@@ -1,0 +1,27 @@
+
+name : Test-Build
+on:
+    push:
+      branches: [main, release, develop, feature/*]
+    pull_request:
+      branches: [main, develop]
+      types: [closed]
+
+jobs:
+    my_first_job :
+        name : my first job
+        runs-on : ubuntu-latest
+        #name optional
+        steps:
+
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                ref: 'develop'
+                
+            - name: check file 
+              shell: bash
+              run: ls -la 
+               
+            
+
